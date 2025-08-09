@@ -5,7 +5,7 @@
 ---
 
 ## 📌 Project Overview
-TaskFlow DB is a backend API for task management that uses **MongoDB Atlas** as a cloud database via **Mongoose ODM**.  
+TaskFlow DB is a backend API for task management that uses **MongoDB Atlas** as a cloud database via **Mongoose**.  
 This project is the Task 4 deliverable – transitioning from in-memory storage to a fully persistent, cloud-backed database.
 
 ---
@@ -50,7 +50,7 @@ This project is the Task 4 deliverable – transitioning from in-memory storage 
 ├── db/
 │ └── connect.js # MongoDB connection logic
 │
-├── .env # Environment variables (NOT committed)
+├── .env # Environment variables
 ├── server.js # Main server entry point
 └── package.json
 ```
